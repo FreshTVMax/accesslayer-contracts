@@ -374,7 +374,7 @@ pub fn configure_payment_asset(
         (oracle_rate_xlm_scaled, is_enabled),
     );
 
-    Ok(()
+    Ok()
 }
 
 /// Convert asset amount to XLM equivalent using oracle rate.
